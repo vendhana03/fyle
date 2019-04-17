@@ -7,14 +7,15 @@ body{
 margin-right: 15%;
 float:right; 
 margin-top:-30px;
-height:350px;
-width:350px; 
+height:15%px;
+width:15%px; 
 } 
 
 .container1 {
     width:32%;
     height:auto;
     padding: 0;
+    font-size: 15px;
     margin-top: 10%;
     margin-left: 15%;
 }
@@ -33,6 +34,7 @@ width:350px;
   padding: 8px 40px;
   border: solid;
   font-weight: bold;
+  width: auto;
   border-color: #0099ff;
   color: white;
   text-align: center;
@@ -42,6 +44,7 @@ width:350px;
 .button2 {
   font-weight: bold;
   border: solid;
+  width: auto;
   border-color: #0099ff;
   border-radius: 3px;
   background-color: white;
@@ -299,7 +302,7 @@ margin-bottom: 50px;
     margin-left: 22%;
 }
 
-* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
