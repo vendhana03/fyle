@@ -171,8 +171,7 @@ input:checked + .slider:before {
   font-weight: bold;
   padding: 10px;
   float: right;
-  margin-top: -3%;
-  margin-right: 10%;
+  margin-right: 10;
 }
 .off{
   margin: auto;
