@@ -195,7 +195,7 @@ input:checked + .slider:before {
   margin-top: 30px;
   padding: 30px;
   margin: auto;
-  width: 50%;
+  width: 45%;
 }
 
 .card {
@@ -204,8 +204,24 @@ input:checked + .slider:before {
   transition: 0.3s;
   background-color: white;
   margin: auto;
-  width: 200px;
-  
+  width: 180px;
+}
+
+.card :hover{
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+.card{
+  width: 130px;
+  font-size: 1em;
+}
 }
 
 .container {
