@@ -12,22 +12,30 @@
             <img src='globe.png' class='iconDetails'>
         </div>  
 		<div class='container1'>
-		    <div style="font-size:2.5em; font-weight: bold;">Looking for a lollipop alternative?</div>
-		    <div style="font-size:.8em;padding-top: 15px;">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since 1500s.</div>
+		    <div style="font-size:2.5em; font-weight: bold;">
+		    	Looking for a lollipop alternative?
+		    </div>
+		    <div style="font-size:.8em;padding-top: 15px;">
+			    Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since 1500s.
+			</div>
 		    <div class="outer">
 			  <div class="inner"><button type="submit" class="button1" onClick="return false;" >Primary CTA </button></div>
 			  <div class="inner"><button type="submit" class="button2" onClick="return false;">Secondary CTA </button></div>
 			</div>
 		</div>
 	</div>
+	<!------------------------------------------------------------------------------->
 
+	<!-- Table part-->
 	<div class = "headborder"> 
         <div class = "heading">
         	This is a Heading in two lines
         </div> 
     	<img src='Group.png' class="table" >
     </div>
+	<!------------------------------------------------------------------------------->
 
+	<!--camparing price part-->
     <div class="txt">
     	Compare Pricing today!
     </div>
@@ -35,56 +43,77 @@
     	Lorem Ipsum is simply dummy text of the printing and <span style="color: #0099ff">typesetting</span>. 
     </div>
 
-   <table class="hoverTable">
-	<tr>
-		<td id = "25", onclick="selectFunc(25)">25 Serving</td>
-		<td id = "50", onclick="selectFunc(50)">50 serving</td>
-		<td id = "100", onclick="selectFunc(100)" style="border: #0099ff 2px solid;">100 serving</td>
-		<td id = "200", onclick="selectFunc(200)">200 serving</td>
-	</tr>
+    <!-- Serving table part-->
+    <table class="hoverTable">
+		<tr>
+			<td id = "25", onclick="selectFunc(25)">25 Serving</td>
+			<td id = "50", onclick="selectFunc(50)">50 serving</td>
+			<td id = "100", onclick="selectFunc(100)" style="border: #0099ff 2px solid;">100 serving</td>
+			<td id = "200", onclick="selectFunc(200)">200 serving</td>
+		</tr>
 	</table>
-	
+
+	<!-- CheckBox part-->
 	<div class="slide">
 		<span style="font-weight: bold;padding: 10px;">Annual</span>
 		<label class="switch">
-		  <input type="checkbox" id="myCheck" onclick="check();" autocomplete="off" checked>
-		  <span class="slider round"></span>
+		  <input type="checkbox" id="myCheck" onclick="check();" autocomplete="off" checked />
+		  <span class="slider round" />
 		</label>
 		<span style="font-weight: bold;padding: 10px;">Monthly</span>
 	</div>
 	<div class="off">50% off</div>
 
+	<!-- CardView part-->
 	<div class="container2">
+
+		<!-- Lollipop part-->
 		<div class="card">
 		  <div class="container">
-		    <h4 class="head1"><b>lollipop</b></h4> 
-		    <span class = "rate" id="lollipopRate">$100</span><span class="permonth" id="per">  Per month</span> 
+		    <h4 class="head1">
+		    	<b>lollipop</b>
+		    </h4> 
+		    <span class = "rate" id="lollipopRate">$100</span>
+		    <span class="permonth" id="per">  Per month</span> 
 		    <div class="for" id="for">
 		    	For 100 serving
 	 	    </div>
 		  </div>
 		</div>
+
+		<!-- IceCandy part-->
 		<div class="card">
 		  <div class="container">
-		    <h4 class="head1"><b>Icecandy</b></h4> 
-		    <span class = "rate" id="icecandyRate">$200</span><span class="permonth" id="per1">  Per month</span> 
+		    <h4 class="head1">
+		    	<b>Icecandy</b>
+		    </h4> 
+		    <span class = "rate" id="icecandyRate">$200</span>
+		    <span class="permonth" id="per1">  Per month</span> 
 		    <div class="for" id="for1">
 		    	For 100 serving
 	 	    </div>
 		  </div>
 		</div>
+
+		<!-- Your Savings part-->
 		<div class="card" style="-ms-transform: scale(1.1);-webkit-transform: scale(1.1);transform: scale(1.1); ">
 		  <div class="container">
-		    <h4 class="head1"><b>Your savings with lollipop</b></h4> 
-		    <span class = "rate" style="color: #0099ff;" id="savingsRate">$100</span><div class="permonth" style="margin-bottom: 40px;" id="per2">Per month</div> 
+		    <h4 class="head1">
+		    	<b>Your savings with lollipop</b>
+		    </h4> 
+		    <span class = "rate" style="color: #0099ff;" id="savingsRate">$100</span>
+		    <div class="permonth" style="margin-bottom: 40px;" id="per2">Per month</div> 
 		  </div>
 		</div>
 	</div>
-	 <div class="here">
+	<!------------------------------------------------------------------------------->
+
+	<!--Customer reply part-->
+	<div class="here">
     	Here's what our customers have to say 
     </div>
-	
 
+	<!--Image with Quote container part-->
     <div class="container3">
     	<img class="image1" src="photo.png">
 		<blockquote>
@@ -99,7 +128,9 @@
 			</div>
 	    </blockquote>
     </div>
+    <!------------------------------------------------------------------------------->
 
+	<!--Loved by users part-->
     <div>
 		<div>
             <img src='Group1.png' class='iconDetails1'>
@@ -118,9 +149,13 @@
 			</div>
 		</div>
 	</div>
-
+	<!------------------------------------------------------------------------------->
+	
+	<!--Script for price changes part-->
 	<script type="text/javascript">
 		var serv=100,y;
+
+		//function for selecting the number of servings & type.
 		function selectFunc(x){
 			document.getElementById("25").style.border = "#D5E2E9 1px solid";
 			document.getElementById("50").style.border = "#D5E2E9 1px solid";
@@ -139,11 +174,14 @@
 			}
 			calc();
 		}
+
+		//function for getting the checkbox type.
 		function check(){
 			y = document.getElementById("myCheck").checked;
 			calc();
 		}
 
+		//function to calculate different pricing and display.
 		function calc(){
 			if(y){
 				document.getElementById("lollipopRate").innerHTML = "$"+serv;
@@ -163,7 +201,5 @@
 			}
 		}
 	</script>
-
 </body>
 </html>
-

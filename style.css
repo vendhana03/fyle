@@ -4,31 +4,28 @@ body{
 	font-family: AktivGrotesk-Regular;
 }
 .iconDetails {
-margin-right: 15%;
-float:right; 
-margin-top:-30px;
-height:25%;
-width:25%; 
-max-width: 50%
+  margin-right: 15%;
+  float:right; 
+  margin-top:-30px;
+  height:25%;
+  width:25%; 
+  max-width: 50%
 } 
-
 .container1 {
-    width:35%;
-    height:auto;
-    padding: 0;
-    font-size: 15px;
-    margin-top: 10%;
-    margin-left: 15%;
+  width:33%;
+  height:auto;
+  padding: 0;
+  font-size: 15px;
+  margin-top: 10%;
+  margin-left: 15%;
 }
-.outer
-{
-    text-align: left;
+.outer {
+  text-align: left;
 }
-.inner
-{
-    display: inline-block;
-    padding-top: 2%;
-    padding-right: 3%;	
+.inner {
+  display: inline-block;
+  padding-top: 2%;
+  padding-right: 3%;	
 }
 .button1 {
   background-color: #0099ff;
@@ -53,16 +50,6 @@ max-width: 50%
   text-align: center;
   text-decoration: none;
 }
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-button{
-  font-size: 1em;
-  padding: 1% 30px;
-}
-}
-
 .headborder { 
 	margin: auto;
 	width: 90%;
@@ -71,7 +58,6 @@ button{
 	background-color:#D5E2E9;
 	margin-bottom: -10%;
 	} 
-
 .heading { 
 	color:black; 
 	text-align: center;
@@ -112,34 +98,30 @@ button{
   text-align: center;
   margin: auto;
 }
-
 .hoverTable{
-    width:50%;
-    margin: auto; 
-    text-align: center;
-    margin-top: 30px;
-    border-collapse:collapse; 
-  }
-  .hoverTable td{ 
-    padding:7px; border:#D5E2E9 1px solid;
-  }
-  .hoverTable td:hover {
-        border:#0099ff 2px solid;
-  }
-
- .switch {
+  width:50%;
+  margin: auto; 
+  text-align: center;
+  margin-top: 30px;
+  border-collapse:collapse; 
+}
+.hoverTable td{ 
+  padding:7px; border:#D5E2E9 1px solid;
+}
+.hoverTable td:hover {
+  border:#0099ff 2px solid;
+}
+.switch {
   position: relative;
   display: inline-block;
   width: 60px;
   height: 34px;
 }
-
 .switch input { 
   opacity: 0;
   width: 0;
   height: 0;
 }
-
 .slider {
   position: absolute;
   cursor: pointer;
@@ -151,7 +133,6 @@ button{
   -webkit-transition: .4s;
   transition: .4s;
 }
-
 .slider:before {
   position: absolute;
   content: "";
@@ -163,21 +144,17 @@ button{
   -webkit-transition: .4s;
   transition: .4s;
 }
-
 input:checked + .slider {
   background-color: #2196F3;
 }
-
 input:focus + .slider {
   box-shadow: 0 0 1px #2196F3;
 }
-
 input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
-
 .slider.round {
   border-radius: 34px;
 }
@@ -185,7 +162,6 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
-
 .slide{
   padding: 30px;
   margin: auto;
@@ -194,20 +170,18 @@ input:checked + .slider:before {
 .off{
   margin: auto;
   width: 20%;
-  margin-top: -35px;
+  margin-top: -42px;
   text-align: left;
   padding-left: 25px;  
   font-size: 12px;
   color: #8B8E91;
 }
-
 .container2{
   margin-top: 30px;
   padding: 30px;
   margin: auto;
   width: 45%;
 }
-
 .card {
   display: inline-block;
   box-shadow: 0 2px 1px 0 rgba(0,0,0,0.3);
@@ -216,34 +190,19 @@ input:checked + .slider:before {
   margin: auto;
   width: 180px;
 }
-
 .card :hover{
   -ms-transform: scale(1.05);
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* Styles */
-.card{
-  width: 80px;
-  font-size: 1em;
-}
-}
-
 .container {
   padding: 2px 16px;
   margin-left: 10px;
 }
-
 .rate{
   font-weight: bold;
   font-size: 20px;
 }
-
 .permonth{
   font-size: 12px;
   color: #8B8E91;
@@ -252,14 +211,12 @@ and (max-device-width : 480px) {
   font-size: 18px;
   font-weight: bold;
 }
-
 .for{
   font-size: 14px;
   color: #31373D;
   font-family: AktivGrotesk-Regular;
   margin-bottom: 40px;
 }
-
 .here{
   color: #31373D;
   margin: auto;
@@ -271,33 +228,28 @@ and (max-device-width : 480px) {
   position: relative;
   margin-top: 80px;
 }
-
 .container3{
   margin-top: 30px;
   padding: 30px;
   margin: auto;
   width: 60%;
 }
-
 .image1{
   float:left; 
   margin-top:20px;
   height:250px;
   width:250px; 
 }
-
 blockquote {
-    border:none;
-    font-family:Georgia, "Times New Roman", Times, serif;
+  border:none;
+  font-family:Georgia, "Times New Roman", Times, serif;
 }
-
 blockquote:before { 
-content: open-quote;
-font-weight: bold;
-font-size:100px;
-color:#0099ff;
+  content: open-quote;
+  font-weight: bold;
+  font-size:100px;
+  color:#0099ff;
 } 
-
 .txt2{
   padding-left: 300px;
   font-size: 17px;
@@ -305,87 +257,22 @@ color:#0099ff;
   color: #8B8E91;
   font-family: AktivGrotesk-Regular;
 }
-
 .name{
   color: black;
   font-size: 15px;
 }
-
-
 .iconDetails1 {
-margin-right: 15%;
-float:right; 
-margin-top:-30px;
-height:250px;
-width:250px; 
-margin-bottom: 50px;
+  margin-right: 15%;
+  float:right; 
+  margin-top:-30px;
+  height:250px;
+  width:250px; 
+  margin-bottom: 50px;
 } 
-
 .container11 {
-    width:24%;
-    height:auto;
-    padding: 0;
-    margin-top: 10%;
-    margin-left: 22%;
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* Styles */
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-/* Styles */
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-/* Styles */
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
-}
-
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
+  width:24%;
+  height:auto;
+  padding: 0;
+  margin-top: 10%;
+  margin-left: 22%;
 }
