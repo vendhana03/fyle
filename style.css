@@ -167,6 +167,13 @@ input:checked + .slider:before {
   margin: auto;
   width: 20%;
 }
+.monthly{
+  font-weight: bold;
+  padding: 10px;
+  float: right;
+  margin-top: -3%;
+  margin-right: 10%;
+}
 .off{
   margin: auto;
   width: 20%;
