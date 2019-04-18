@@ -184,7 +184,7 @@ input:checked + .slider:before {
   margin-top: 30px;
   padding: 30px;
   margin: auto;
-  width: 45%;
+  width: 55%;
 }
 .card {
   display: inline-block;
