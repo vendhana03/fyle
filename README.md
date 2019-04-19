@@ -10,3 +10,7 @@ The above interaction should change the details in the card below.
 lollipop Price (per serving) - Annually 0.5$ & Monthly 1$
 
 Icecandy Price (per serving) - Annually 1$ & Monthly 2$
+
+# Website
+The website is created and hosted in heroku.
+URL:https://marvelui123.herokuapp.com
